@@ -1,14 +1,15 @@
 // ==UserScript==
-// @name        twimg_redirect_orig
+// @name        twimg redirect to original
+// @namespace   https://mzile.net
+// @version     1.3.1
+// @description Redirect twimg to :orig
+// @author      eai04191
+// @license     MIT
+// @supportURL  https://github.com/eai04191/twimg-redirect-to-original/issues
 // @include     *://pbs.twimg.com/media/*
 // @exclude     *://pbs.twimg.com/media/*name=orig
 // @run-at      document-start
-// @author      eai04191
-// @license     MIT
-// @version     1.3
 // @grant       none
-// @description Redirect twimg to :orig
-// @namespace https://greasyfork.org/users/10510
 // ==/UserScript==
 
 //https://pbs.twimg.com/media/ABC.jpg:large
