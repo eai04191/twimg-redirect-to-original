@@ -6,7 +6,7 @@
 // @author      eai04191
 // @license     MIT
 // @supportURL  https://github.com/eai04191/twimg-redirect-to-original/issues
-// @include     *://pbs.twimg.com/media/*
+// @match       *://pbs.twimg.com/media/*
 // @exclude     *://pbs.twimg.com/media/*name=orig
 // @run-at      document-start
 // @grant       none
@@ -24,7 +24,7 @@ url = url.replace(/\&name=/, ":");
 url = url.replace(/\.(?=[^.]*$)/, "?format=");
 //https://pbs.twimg.com/media/ABC?format=jpg:large
 
-url = url.replace( /(:large|:medium|:small|:orig|:thumb)/, "");
+url = url.replace( /(:large|:medium|:small|:orig|:thumb|:360x360|:900x900)/, "");
 //https://pbs.twimg.com/media/ABC?format=jpg
 
 window.location.replace( url + "&name=orig" );
