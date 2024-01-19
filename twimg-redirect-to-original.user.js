@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        twimg redirect to original
 // @namespace   https://mzile.net
-// @version     1.3.1
+// @version     1.3.2
 // @description Redirect twimg to :orig
 // @author      eai04191
 // @license     MIT
